@@ -1,5 +1,5 @@
 const ProfessionalPlan = {
   title: "Profissional",
-  price: "R$ 79,90/mês",
+  price: "R$ 69,90/mês",
   // ... existing code ...
 } 

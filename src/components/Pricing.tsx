@@ -15,7 +15,7 @@ const plans = [
   },
   {
     name: 'Profissional',
-    price: 'R$ 79,90/mês',
+    price: 'R$ 69,90/mês',
     description: 'Para clínicas estabelecidas',
     features: [
       'Pacientes ilimitados',
