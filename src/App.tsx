@@ -5,7 +5,7 @@ import About from './components/About';
 import Features from './components/Features';
 import BlogSection from './components/blog/BlogSection';
 import TestimonialsSection from './components/testimonials/TestimonialsSection';
-import Pricing from './components/Pricing';
+import Pricing from './components/Pricing.tsx';
 import ContactSection from './components/contact/ContactSection';
 
 function App() {

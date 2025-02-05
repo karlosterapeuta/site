@@ -11,7 +11,8 @@ export const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <Music2 className="h-8 w-8 text-indigo-600 dark:text-indigo-400" />
+            {/* <Music2 className="h-8 w-8 text-indigo-600 dark:text-indigo-400" /> */}
+            <img src="/images/blog/logo-musicoterapia.png" alt="Logo Musicoterapia" className="h-16 w-16" />
             <span className="text-2xl font-bold text-gray-800 dark:text-white">{branding.name}</span>
           </div>
           

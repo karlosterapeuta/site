@@ -41,7 +41,7 @@ const plans = [
   }
 ];
 
-const Pricing = () => {
+export default function Pricing() {
   return (
     <section id="pricing" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -98,6 +98,4 @@ const Pricing = () => {
       </div>
     </section>
   );
-};
-
-export default Pricing;
+}

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const images = [
-  '/images/musicoterapia1.jpg',
+  '/images/criancas-autismo.jpg',  // Nova imagem
   '/images/musicoterapia2.jpg',
   '/images/musicoterapia3.jpg',
   '/images/musicoterapia4.jpg'

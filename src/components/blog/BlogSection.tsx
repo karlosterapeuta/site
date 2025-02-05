@@ -6,15 +6,15 @@ const posts = [
     id: 1,
     title: 'O Impacto da Música em Crianças Autistas',
     excerpt: 'Descubra como a musicoterapia pode auxiliar no desenvolvimento cognitivo, emocional e social de crianças com autismo.',
-    image: 'https://images.unsplash.com/photo-1607962837359-5e7e89f86776?auto=format&fit=crop&w=800&q=80',
+    image: '/images/blog/criancas-autismo.jpg',
     date: '12 Mar 2024',
     readTime: '5 min'
   },
   {
     id: 2,
-    title: 'Musicoterapia na Reabilitação Neurológica',
-    excerpt: 'Um guia sobre como a música pode auxiliar na recuperação de pacientes com lesões neurológicas.',
-    image: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80',
+    title: 'Musicoterapia na Gerontologia',
+    excerpt: 'A musicoterapia na gerontologia é uma técnica terapêutica que utiliza a música para melhorar a qualidade de vida e o bem-estar de idosos.',
+    image: '/images/blog/musicoterapia-gerentologia.jpg',
     date: '10 Mar 2024',
     readTime: '7 min'
   },
@@ -22,7 +22,7 @@ const posts = [
     id: 3,
     title: 'Musicoterapia nos Transtornos Mentais',
     excerpt: 'Entenda como a musicoterapia pode auxiliar no tratamento e na qualidade de vida de pessoas com transtornos mentais.',
-    image: 'https://images.unsplash.com/photo-1517242810446-cc8951b2be40?auto=format&fit=crop&w=800&q=80',
+    image: '/images/blog/transtornos-mentais.jpeg',
     date: '8 Mar 2024',
     readTime: '6 min'
   }
