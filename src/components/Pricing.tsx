@@ -81,7 +81,7 @@ export default function Pricing() {
                 ))}
               </ul>
               <a
-href="https://w.app/musetera"
+href="https://www.contate.me/musetera"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`w-full py-3 rounded-full ${

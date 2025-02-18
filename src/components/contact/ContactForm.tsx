@@ -54,11 +54,11 @@ const ContactForm = () => {
         </div>
         <div className="flex items-center">
           <Phone className="w-5 h-5 text-indigo-600 mr-2" />
-          <span className="text-gray-600">(81) 99680-3433</span>
+          <span className="text-gray-600">(81) 98695-3506</span>
         </div>
         <div className="flex items-center">
           <MessageSquare className="w-5 h-5 text-indigo-600 mr-2" />
-          <span className="text-gray-600">WhatsApp</span>
+          <a href="https://www.contate.me/musetera" className="text-gray-600 hover:text-indigo-600 transition-colors">WhatsApp</a>
         </div>
       </div>
     </div>
