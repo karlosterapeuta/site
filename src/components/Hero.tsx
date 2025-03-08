@@ -19,7 +19,7 @@ const Hero = () => {
                 href="https://www.contate.me/musetera" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="bg-indigo-600 text-white px-8 py-3 rounded-full hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-colors text-center"
+                className="bg-green-600 text-white px-8 py-3 rounded-full hover:bg-green-700 dark:bg-green-500 dark:hover:bg-green-600 transition-colors text-center"
               >
                 Comece Agora
               </a>
@@ -27,7 +27,7 @@ const Hero = () => {
                 href="https://musetera-app.vercel.app/login"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-indigo-600 text-white px-8 py-3 rounded-full hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-colors text-center"
+                className="bg-green-600 text-white px-8 py-3 rounded-full hover:bg-green-700 dark:bg-green-500 dark:hover:bg-green-600 transition-colors text-center"
               >
                 Acessar Sistema
               </a>
@@ -35,6 +35,24 @@ const Hero = () => {
                 <PlayCircle className="w-5 h-5" />
                 Ver Demo
               </button>
+            </div>
+            
+            <div className="mt-12 w-full max-w-4xl mx-auto">
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 text-center">
+                Conheça nosso trabalho
+              </h2>
+              <div className="aspect-w-16 aspect-h-9">
+                <iframe
+                  src="https://www.youtube.com/embed/vOYRSW20PM8"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full rounded-lg shadow-lg"
+                ></iframe>
+              </div>
+              <p className="mt-4 text-gray-600 dark:text-gray-300 text-center">
+                Assista ao nosso vídeo demonstrativo para conhecer mais sobre a Musicoterapia
+              </p>
             </div>
           </div>
         </div>
