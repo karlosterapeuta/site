@@ -23,6 +23,14 @@ const Hero = () => {
               >
                 Comece Agora
               </a>
+              <a
+                href="https://musetera-app.vercel.app/login"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-indigo-600 text-white px-8 py-3 rounded-full hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-colors text-center"
+              >
+                Acessar Sistema
+              </a>
               <button className="flex items-center justify-center gap-2 text-indigo-600 dark:text-indigo-400 px-8 py-3 rounded-full border-2 border-indigo-600 dark:border-indigo-400 hover:bg-indigo-50 dark:hover:bg-gray-800 transition-colors">
                 <PlayCircle className="w-5 h-5" />
                 Ver Demo
