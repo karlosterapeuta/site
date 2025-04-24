@@ -23,7 +23,7 @@ const Hero = () => {
                 Comece Agora
               </a>
               <a
-                href="https://musetera-app.vercel.app/login"
+                href="https://portal-musetera.netlify.app/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-600 text-white px-8 py-3 rounded-full hover:bg-green-700 dark:bg-green-500 dark:hover:bg-green-600 transition-colors text-center"
