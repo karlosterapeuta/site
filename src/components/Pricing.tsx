@@ -3,19 +3,21 @@ import { Check } from 'lucide-react';
 
 const plans = [
   {
-    name: 'Básico',
-    price: 'R$ 29,90/mês',
+    name: 'Sem Fidelidade',
+    price: 'R$ 69,90/mês',
     description: 'Para profissionais iniciando',
     features: [
-      '3 Pacientes limitado',
-      'Anamnese básica',
-      'Plano terapêutico simples',
-      'Agendamento básico'
+      'Pacientes ilimitados',
+      'Anamnese completa',
+      'Plano terapêutico avançado',
+      'Agendamento completo',
+      'Relatórios personalizados',
+      'Suporte prioritário'
     ]
   },
   {
-    name: 'Profissional',
-    price: 'R$ 69,90/mês',
+    name: 'Fidelidade 6 Meses',
+    price: 'R$ 49,90/mês',
     description: 'Para clínicas estabelecidas',
     features: [
       'Pacientes ilimitados',
