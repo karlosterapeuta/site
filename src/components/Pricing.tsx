@@ -13,7 +13,8 @@ const plans = [
       'Agendamento completo',
       'Relatórios personalizados',
       'Suporte prioritário'
-    ]
+    ],
+    link: 'https://www.asaas.com/c/we2dt3i0hbuaes45'
   },
   {
     name: 'Fidelidade 6 Meses',
@@ -26,7 +27,8 @@ const plans = [
       'Agendamento completo',
       'Relatórios personalizados',
       'Suporte prioritário'
-    ]
+    ],
+    link: 'https://www.asaas.com/c/0kvjf7y8j14o7tqg'
   },
   {
     name: 'Fidelidade 12 Meses',
@@ -39,7 +41,8 @@ const plans = [
       'Agendamento completo',
       'Relatórios personalizados',
       'Suporte prioritário'
-    ]
+    ],
+    link: 'https://www.asaas.com/c/6kdt8aus266vtz3h'
   },
   {
     name: 'Fidelidade 24 Meses',
@@ -53,6 +56,7 @@ const plans = [
       'Relatórios personalizados',
       'Suporte prioritário'
     ],
+    link: 'https://www.asaas.com/c/btp6r0bmh2ykoli3',
     highlighted: true
   },
   
@@ -98,7 +102,7 @@ export default function Pricing() {
                 ))}
               </ul>
               <a
-href="https://www.contate.me/musetera"
+href={plan.link || 'https://www.contate.me/musetera'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`w-full py-3 rounded-full ${
