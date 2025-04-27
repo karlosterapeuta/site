@@ -42,7 +42,8 @@ const plans = [
       'Relatórios personalizados',
       'Suporte prioritário'
     ],
-    link: 'https://www.asaas.com/c/6kdt8aus266vtz3h'
+    link: 'https://www.asaas.com/c/6kdt8aus266vtz3h',
+    highlighted: true
   },
   {
     name: 'Fidelidade 24 Meses',
@@ -56,8 +57,7 @@ const plans = [
       'Relatórios personalizados',
       'Suporte prioritário'
     ],
-    link: 'https://www.asaas.com/c/btp6r0bmh2ykoli3',
-    highlighted: true
+    link: 'https://www.asaas.com/c/btp6r0bmh2ykoli3'
   },
   
 ];
@@ -111,7 +111,7 @@ href={plan.link || 'https://www.contate.me/musetera'}
                     : 'border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-50'
                 } transition-colors block text-center`}
               >
-                Começar Agora
+                Compre Agora
               </a>
             </div>
           ))}
