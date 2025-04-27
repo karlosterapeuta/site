@@ -18,6 +18,32 @@ const plans = [
   {
     name: 'Fidelidade 6 Meses',
     price: 'R$ 49,90/mês',
+    description: 'Para profissionais comprometidos',
+    features: [
+      'Pacientes ilimitados',
+      'Anamnese completa',
+      'Plano terapêutico avançado',
+      'Agendamento completo',
+      'Relatórios personalizados',
+      'Suporte prioritário'
+    ]
+  },
+  {
+    name: 'Fidelidade 12 Meses',
+    price: 'R$ 39,90/mês',
+    description: 'Para profissionais dedicados',
+    features: [
+      'Pacientes ilimitados',
+      'Anamnese completa',
+      'Plano terapêutico avançado',
+      'Agendamento completo',
+      'Relatórios personalizados',
+      'Suporte prioritário'
+    ]
+  },
+  {
+    name: 'Fidelidade 24 Meses',
+    price: 'R$ 29,90/mês',
     description: 'Para clínicas estabelecidas',
     features: [
       'Pacientes ilimitados',
@@ -29,18 +55,7 @@ const plans = [
     ],
     highlighted: true
   },
-  {
-    name: 'Empresarial',
-    price: 'Consulte',
-    description: 'Para grandes instituições',
-    features: [
-      'Tudo do Profissional',
-      'API personalizada',
-      'Treinamento dedicado',
-      'Suporte 24/7',
-      'Customizações exclusivas'
-    ]
-  }
+  
 ];
 
 export default function Pricing() {
