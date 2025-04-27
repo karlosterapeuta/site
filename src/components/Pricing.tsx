@@ -68,7 +68,7 @@ export default function Pricing() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Planos para Cada Necessidade
+            Planos MuseTera
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Escolha o plano ideal para sua prática e comece a transformar vidas através da musicoterapia.
