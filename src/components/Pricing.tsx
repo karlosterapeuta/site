@@ -45,20 +45,6 @@ const plans = [
     link: 'https://www.asaas.com/c/6kdt8aus266vtz3h',
     highlighted: true
   },
-  {
-    name: 'Fidelidade 24 Meses',
-    price: 'R$ 29,90/mês',
-    description: 'Para clínicas estabelecidas',
-    features: [
-      'Pacientes ilimitados',
-      'Anamnese completa',
-      'Plano terapêutico avançado',
-      'Agendamento completo',
-      'Relatórios personalizados',
-      'Suporte prioritário'
-    ],
-    link: 'https://www.asaas.com/c/btp6r0bmh2ykoli3'
-  },
   
 ];
 
