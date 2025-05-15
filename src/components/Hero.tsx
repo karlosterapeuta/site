@@ -1,29 +1,28 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import { branding } from '../config/branding';
-import { PlayCircle, Music, Volume2 } from 'lucide-react';
+import { PlayCircle, Volume2, VolumeX } from 'lucide-react';
 
 const Hero = () => {
-  useEffect(() => {
-    // Criar iframe do YouTube para tocar o áudio automaticamente
-    const audioPlayer = document.createElement('iframe');
-    audioPlayer.src = 'https://www.youtube.com/embed/vOYRSW20PM8?autoplay=1&start=2&controls=0&showinfo=0&mute=0&loop=1';
-    audioPlayer.width = '0';
-    audioPlayer.height = '0';
-    audioPlayer.style.display = 'none';
-    audioPlayer.allow = 'autoplay; encrypted-media';
-    document.body.appendChild(audioPlayer);
+  const [isMuted, setIsMuted] = useState(true);
 
-    return () => {
-      document.body.removeChild(audioPlayer);
-    };
-  }, []);
   return (
     <section 
       id="home" 
       className="relative h-screen bg-[#1034A6] overflow-hidden"
       aria-labelledby="hero-heading"
     >
-      {/* Fundo azul egípcio com animação */}
+      {/* Player de áudio do YouTube */}
+      <iframe
+        src={`https://www.youtube.com/embed/vOYRSW20PM8?autoplay=1&start=2&controls=0&mute=${isMuted ? 1 : 0}&loop=1&playlist=vOYRSW20PM8`}
+        width="0"
+        height="0"
+        frameBorder="0"
+        allow="autoplay"
+        style={{ display: 'none' }}
+        title="YouTube audio player"
+      />
+
+      {/* Restante do código permanece igual */}
       <div className="absolute inset-0 bg-[#1034A6] z-0">
         <iframe 
           src='https://my.spline.design/nexbotrobotcharacterconcept-wTDi18L18VkhpnKvq1NArdU7/'
@@ -35,10 +34,8 @@ const Hero = () => {
         />
       </div>
 
-      {/* Conteúdo principal */}
       <div className="container mx-auto px-4 h-full flex items-center relative z-20">
         <div className="max-w-2xl px-4 sm:px-6">
-          
           <h1 
             id="hero-heading" 
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight sm:leading-[1.15] tracking-tight sm:tracking-[-0.02em] drop-shadow-lg"
@@ -54,23 +51,18 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <button 
-              onClick={() => {
-                const audioPlayer = document.querySelector('iframe[src*="youtube"]') as HTMLIFrameElement;
-                if (audioPlayer && audioPlayer.src) {
-                  const isMuted = audioPlayer.src.includes('mute=1');
-                  audioPlayer.src = audioPlayer.src.replace(
-                    isMuted ? 'mute=1' : 'mute=0',
-                    isMuted ? 'mute=0' : 'mute=1'
-                  );
-                }
-              }}
+              onClick={() => setIsMuted(!isMuted)}
               className="p-3 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
-              aria-label="Ativar/desativar áudio"
+              aria-label={isMuted ? "Ativar áudio" : "Desativar áudio"}
             >
-              <Volume2 className="h-5 w-5 text-white" />
+              {isMuted ? (
+                <VolumeX className="h-5 w-5 text-white" />
+              ) : (
+                <Volume2 className="h-5 w-5 text-white" />
+              )}
             </button>
             <a 
-              href="https://www.youtube.com/embed/vOYRSW20PM8" 
+              href="https://portal-musetera.netlify.app/login" 
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-center gap-2 bg-gradient-to-r from-[#00BFFF] to-[#8A2BE2] text-white px-8 py-4 rounded-full hover:shadow-lg hover:shadow-[#00BFFF]/30 transition-all duration-300 text-lg font-semibold"
