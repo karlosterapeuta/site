@@ -1,5 +1,5 @@
 export const branding = {
   name: 'MuseTera',
-  tagline: 'Sistema de Gestão para Musicoterapeutas',
-  description: 'Gerencie seus processos terapêuticos, crie relatórios profissionais e desenvolva intervenções personalizadas com nossa plataforma especializada para musicoterapeutas.'
+  tagline: 'Sistema de gestão para Musicoterapeutas',
+  description: 'Plataforma especializada para musicoterapeutas, com ferramentas completas de gestão clínica.'
 } as const;
