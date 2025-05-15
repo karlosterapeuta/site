@@ -40,7 +40,7 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
-              href="https://portal-musetera.netlify.app/login" 
+              href="https://www.youtube.com/embed/vOYRSW20PM8" 
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-center gap-2 bg-gradient-to-r from-[#00BFFF] to-[#8A2BE2] text-white px-8 py-4 rounded-full hover:shadow-lg hover:shadow-[#00BFFF]/30 transition-all duration-300 text-lg font-semibold"
@@ -48,7 +48,7 @@ const Hero = () => {
             >
               <PlayCircle className="h-5 w-5 text-white transition-transform group-hover:scale-110" />
               <span className="relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300">
-                Veja como funciona
+                Acessar sistema
               </span>
             </a>
           </div>
