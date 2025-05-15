@@ -8,18 +8,18 @@ export const Header = () => {
 
   return (
     <header className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-md fixed w-full top-0 z-50 border-b border-gray-100/50 dark:border-gray-800/50">
-      <nav className="container mx-auto px-6 py-4">
+      <nav className="container mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-2 sm:space-x-3">
             <div className="relative group">
               <img 
                 src="/images/blog/logo-musicoterapia.png" 
                 alt="Logo Musicoterapia" 
-                className="h-12 w-12 transition-all duration-300 group-hover:scale-105 group-hover:rotate-[5deg]" 
+                className="h-10 w-10 sm:h-12 sm:w-12 transition-all duration-300 group-hover:scale-105 group-hover:rotate-[5deg]" 
               />
               <span className="absolute -inset-1 bg-primary-light/10 dark:bg-primary-dark/10 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></span>
             </div>
-            <span className="text-2xl font-bold text-primary-dark dark:text-primary-light tracking-tight bg-gradient-to-r from-primary-DEFAULT to-accent-DEFAULT bg-clip-text text-transparent">
+            <span className="text-xl sm:text-2xl font-bold text-primary-dark dark:text-primary-light tracking-tight bg-gradient-to-r from-primary-DEFAULT to-accent-DEFAULT bg-clip-text text-transparent">
               {branding.name}
             </span>
           </div>
